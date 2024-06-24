@@ -4,12 +4,19 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "node_modules/.prisma/client",
+      "use": "@prisma/cli",
+      "config": {
+        "prisma": "./node_modules/.bin/prisma"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.js"
+      "dest": "/server.js"
     }
   ]
 }
