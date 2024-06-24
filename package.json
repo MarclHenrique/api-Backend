@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "engines": {
-    "node": ">=14.0.0"
+    "node": "14.0.0"
   },
-  "main": "index.js",
+  "main": "./API-BACKEND/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./API-BACKEND/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
