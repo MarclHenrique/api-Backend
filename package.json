@@ -5,9 +5,9 @@
   "engines": {
     "node": "14.0.0"
   },
-  "main": "./API-BACKEND/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./API-BACKEND/server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
