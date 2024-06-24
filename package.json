@@ -8,8 +8,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-     "prisma:generate": "prisma generate",
-    "build": "npm run prisma:generate && npm run start",
+    "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
